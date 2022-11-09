@@ -1,14 +1,11 @@
 <!DOCTYPE html>
-<html style=" text-align:center; border:2px solid DodgerBlue; background-image: url('p.jpg');background-repeat:no-repeat;  background-size:150%; ">
-<head >
+<html style=" text-align:center; border:2px solid DodgerBlue; background-image: url('p.jpg');background-repeat:no-repeat;background-size:100%;   ">
+<head style="background-color:pink ">
 <title>
 School System 
 </title> 
 <style>   
- table, th, td {
-  border:1px solid black;
-
-}
+ 
 button {   
        background-color: white;   
        width: 40%;  
@@ -24,10 +21,10 @@ button {
   margin: 30px auto;
   text-align: center;
   padding: 40px 0 0 0;
-  border-radius: 4px;
+  border-radius: 10px;
   box-shadow: 0px 30px 50px 0px rgba(0, 0, 0, 0.2);
     }   
- input[type=text], input[type=password], input[type=number] {   
+ input[type=text], input[type=password] {   
         width: 50%;   
         margin: 8px 0;  
         padding: 12px 20px;   
@@ -35,7 +32,7 @@ button {
         border: 2px solid green;   
         box-sizing: border-box;   
     }  
-  
+
   .btn {   
 
  width: 30%;   
@@ -45,23 +42,51 @@ button {
   font-weight: bold;
   text-transform: uppercase;
   cursor: pointer;
- border-radius: 10px;
-    border: 2px solid;
+  border-radius: 10px;
+  border: 2px solid;
   padding: 12px 35px;
- 
   transition: all 0.2s ease;
   font-size: 18px;
   position: relative;
   display: inline-block;
   cursor: pointer;
   text-align: center;
-    }  
+    }
 input[type="submit"]:hover {
   background-color: #329dd5;
   -webkit-transition: all 0.2s ease;
   transition: all 0.2s ease;
 }	
-        
+      body   
+{  
+height: 125vh;  
+margin-top: 80px;  
+padding: 30px;  
+background-size: cover;  
+font-family: sans-serif;  
+}  
+header {  
+
+position: fixed;  
+left: 0;  
+right: 0;  
+top: 5px;  
+height: 30px;  
+display: flex;  
+align-items: center;  
+box-shadow: 0 0 25px 0 black;  
+}  
+header * {  
+display: inline;  
+}  
+header li {  
+margin: 20px;  
+}  
+header li a {  
+color: black;  
+text-decoration: none;  
+
+}   
   
    
 </style>  
@@ -69,50 +94,27 @@ input[type="submit"]:hover {
 </head>
 <body >
 <br>
-
  <center>
  <div>
 <img src="r.png" alt="" width="400" height="200">
 
 <h1 ><b> SCHOOL SYSTEM</h1><br>
 
-<h2> <b> Students Report </h2> </b>
+
   <br><br> <br>
- 
-<table style="width:70%">
-  <tr>
-    <th>School Name </th>
-    <th>Student Name</th>
-    <th>Student Age</th>
-	<th>Student Email</th>
-  </tr>
-  <tr height="30px">
-    <td></td>
-    <td></td>
-    <td></td>
-	<td></td>
-  </tr>
-   <tr height="30px">
-    <td></td>
-    <td></td>
-    <td></td>
-	<td></td>
-  </tr>
- <tr height="30px">
-   
-    <td></td>
-    <td></td>
-    <td></td>
-	<td></td>
-</tr>
+ <form>  <br><br> 
+    <center> <h1 style="text-align:center;color:red;"> Student Fees </h1> </center> 
+  
+        <div class="container">   
+          
+           <button type="submit" class="btn">Add</button><br><br></center>
+  
 
-</table>
-
+        </div>  <b> 
 <br><br>
 </body>
 <footer>
 </footer>
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 </html>
 
 
