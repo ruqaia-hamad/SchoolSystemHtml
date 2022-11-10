@@ -1,98 +1,121 @@
 <!DOCTYPE html>
-<html style=" text-align:center; border:2px solid DodgerBlue; background-image: url('p.jpg');background-repeat:no-repeat;background-size:100%;   ">
+<html style=" text-align:center;  background-image: url('p.jpg');background-repeat:no-repeat;background-size:100%;   ">
 <head style="background-color:pink ">
 <title>
 School System 
 </title> 
 <style>   
  
-button {   
-       background-color: white;   
-       width: 40%;  
-        color:blue;   
-        padding: 10px;   
-        margin: 10px 0px;   
-        border:  2px black;   
-        cursor: pointer;   
-         }   
- form {     
-  background-color: #fff;
-  width: 35%;
-  margin: 30px auto;
-  text-align: center;
-  padding: 40px 0 0 0;
-  border-radius: 10px;
-  box-shadow: 0px 30px 50px 0px rgba(0, 0, 0, 0.2);
-    }   
- input[type=text], input[type=password] {   
-        width: 50%;   
-        margin: 8px 0;  
-        padding: 12px 20px;   
-        display: inline-block;   
-        border: 2px solid green;   
-        box-sizing: border-box;   
-    }  
-
-  .btn {   
-
- width: 30%;   
-  display: block;
-  background-color: #3ca9e2;
-  color: #fff;
-  font-weight: bold;
-  text-transform: uppercase;
-  cursor: pointer;
-  border-radius: 10px;
-  border: 2px solid;
-  padding: 12px 35px;
-  transition: all 0.2s ease;
-  font-size: 18px;
-  position: relative;
-  display: inline-block;
-  cursor: pointer;
-  text-align: center;
-    }
-input[type="submit"]:hover {
-  background-color: #329dd5;
-  -webkit-transition: all 0.2s ease;
-  transition: all 0.2s ease;
-}	
-      body   
-{  
-height: 125vh;  
-margin-top: 80px;  
-padding: 30px;  
-background-size: cover;  
-font-family: sans-serif;  
-}  
-header {  
-
-position: fixed;  
-left: 0;  
-right: 0;  
-top: 5px;  
-height: 30px;  
-display: flex;  
-align-items: center;  
-box-shadow: 0 0 25px 0 black;  
-}  
-header * {  
-display: inline;  
-}  
-header li {  
-margin: 20px;  
-}  
-header li a {  
-color: black;  
-text-decoration: none;  
-
-}   
-  
+  button {   
+        background-color: white;   
+        width: 40%;  
+         color:blue;   
+         padding: 10px;   
+         margin: 10px 0px;   
+         border:  2px black;   
+         cursor: pointer;   
+          }   
+  form {     
+   background-color: #fff;
+   width: 35%;
+   margin: 30px auto;
+   text-align: center;
+   padding: 40px 0 0 0;
+   border-radius: 10px;
+   box-shadow: 0px 30px 50px 0px rgba(0, 0, 0, 0.2);
+     }   
+  input[type=text], input[type=password] {   
+         width: 50%;   
+         margin: 8px 0;  
+         padding: 12px 20px;   
+         display: inline-block;   
+         border: 2px solid green;   
+         box-sizing: border-box;   
+     }  
+ 
+   .btn {   
+ 
+  width: 30%;   
+   display: block;
+   background-color: #3ca9e2;
+   color: #fff;
+   font-weight: bold;
+   text-transform: uppercase;
+   cursor: pointer;
+   border-radius: 10px;
+   border: 2px solid;
+   padding: 12px 35px;
+   transition: all 0.2s ease;
+   font-size: 18px;
+   position: relative;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+     }
+ input[type="submit"]:hover {
+   background-color: #329dd5;
+   -webkit-transition: all 0.2s ease;
+   transition: all 0.2s ease;
+ }	
+       body   
+ {  
+ height: 125vh;  
+ margin-top: 80px;  
+ padding: 30px;  
+ background-size: cover;  
+ font-family: sans-serif;  
+ }  
+ header {  
+ 
+ position: fixed;  
+ left: 0;  
+ right: 0;  
+ top: 5px;  
+ height: 30px;  
+ display: flex;  
+ align-items: center;  
+ box-shadow: 0 0 25px 0 black;  
+ }  
+ header * {  
+ display: inline;  
+ }  
+ header li {  
+ margin: 20px;  
+ }  
+ header li a {  
+ color: black;  
+ text-decoration: none;  
+ 
+ }   
+        
    
-</style>  
+    
+ </style>  
 
 </head>
 <body >
+  <br>
+  <header>  
+  <nav>  
+  <ul>  
+    <li>  <b>
+      <a href="loginPage.html"> Home </a>  
+      </li>  
+      <li>  
+      <a href="registerationPage.html"> Add Student</a>  
+      </li>  
+      <li>  
+      <a href="StudentFees.html">Courses Fees</a>  
+      </li>  
+      <li> <a href="homePage.html"> Student Report </a>  
+      </li>  
+      <li>  
+      <a href="submenuPage.html"> Sub Menu</a>  
+      </li>  
+  
+  </ul></b>  
+  </nav>  
+  </header>  
 <br>
  <center>
  <div>
@@ -101,13 +124,27 @@ text-decoration: none;
 <h1 ><b> SCHOOL SYSTEM</h1><br>
 
 
-  <br><br> <br>
+  <br><br> <br> 
  <form>  <br><br> 
     <center> <h1 style="text-align:center;color:red;"> Student Fees </h1> </center> 
-  
+  <br>
         <div class="container">   
-          
-           <button type="submit" class="btn">Add</button><br><br></center>
+          <label >Choose Currency</label>
+          <select  name="country">
+            <option value="Kuwiat">KWD</option>
+            <option value="UAE">AED</option>
+            <option value="USA">USD</option>
+            <option value="India">INR</option>
+          </select>
+        <br><br><br><br>
+        <label >Please Enter Amount :</label>
+       
+        <input type="text" placeholder="Enter Amount" name="amount" required>  <br><br><br><br>
+    
+        <label>The total Amount Fees :</label>
+        <input type="text" placeholder="Result" name="result" required>  <br><br><br><br>
+
+       <button type="submit" class="btn">Submit</button><br><br></center>
   
 
         </div>  <b> 
